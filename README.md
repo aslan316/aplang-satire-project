@@ -1,0 +1,1 @@
+This is a project for my AP Lang class. The objective was to create a satire. I decided to create a writing prompt for the project, but add a bit with a website that contained the text.
