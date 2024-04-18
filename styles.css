@@ -6,6 +6,9 @@
 body {
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -68,4 +71,26 @@ ul > li:hover {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+#banner {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+#image-banner {
+    position: relative;
+}
+
+#big-title {
+    position: absolute;
+    left: calc(50% - calc(306.56px / 2));
+    bottom: calc(50% - calc(95px / 2));
+
+    font-size: 3rem;
+    background-color: #303030e3;
+    border-radius: 20px;
+    padding: 20px;
+    color: #ff9d00;
 }
