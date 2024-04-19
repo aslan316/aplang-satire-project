@@ -9,6 +9,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    overscroll-behavior-block: none;
 }
 
 header {
@@ -75,12 +76,13 @@ a {
 
 #banner {
     width: 100vw;
-    height: 40vh;
+    height: inherit;
     object-fit: cover;
 }
 
 #image-banner {
     position: relative;
+    height: 40vh
 }
 
 #big-title {
@@ -93,4 +95,34 @@ a {
     border-radius: 20px;
     padding: 20px;
     color: #ff9d00;
+}
+
+#blog-section {
+    background-color: #383838;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 25vw;
+    gap: 2vh;
+}
+
+.card {
+    padding: 30px;
+    color: #eeeeee;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 40px;
+    line-height: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+
+    height: 20vh;
+    padding: 5vh;
+    background-color: #303030;
+    color: #eeeeee;
 }
