@@ -9,7 +9,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    overscroll-behavior-block: none;
+    overscroll-behavior: none;
 }
 
 header {
