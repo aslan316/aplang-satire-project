@@ -114,6 +114,15 @@ a {
     line-height: 1.5rem;
 }
 
+.date-posted {
+    position: relative;
+    left: -2%;
+    top: -3%;
+
+    color: #e2e2e2f6;
+    font-weight: bold;
+}
+
 footer {
     display: flex;
     flex-direction: column;
