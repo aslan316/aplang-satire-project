@@ -123,6 +123,10 @@ a {
     font-weight: bold;
 }
 
+.new-line {
+    margin-bottom: 3%;
+}
+
 footer {
     display: flex;
     flex-direction: column;
